@@ -27,7 +27,7 @@ curl_setopt_array($curl, array(
                           "accountReference": "'.$email.'",
                           "accountName": "'.$ref.'",
                           "currencyCode": "NGN",
-                          "contractCode": 133541598312,
+                          "contractCode": 4524521353,
                           "customerEmail": "'.$email.'",
                           "customerName": "'.$ref.'"
                       }',
