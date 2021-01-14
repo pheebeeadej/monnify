@@ -64,7 +64,7 @@ button{
 </style>
 <body>
   <center style="margin-top: 100px;">
-  <form action="auth.php" method="POST">
+  <form action="index.php" method="POST">
   <input type="email" name="email" id="" placeholder="email" ><br>
   <input type="text" name="ref" id="" placeholder="name"><br><br>
   <button type="submit"  name="submit">submit</button>

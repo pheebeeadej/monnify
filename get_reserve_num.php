@@ -27,7 +27,7 @@ curl_setopt_array($curl, array(
                           "accountReference": "'.$email.'",
                           "accountName": "'.$ref.'",
                           "currencyCode": "NGN",
-                          "contractCode": "133541598312",
+                          "contractCode": 133541598312,
                           "customerEmail": "'.$email.'",
                           "customerName": "'.$ref.'"
                       }',
@@ -41,7 +41,12 @@ curl_setopt_array($curl, array(
 $response = curl_exec($curl);
 
 curl_close($curl);
-//  echo $response;
+ echo $response;
+ echo"<br>";
+ echo"<br>";
+ echo"<br>";
+ echo"<br>";
+ echo"<br>";
 
 $value= json_decode($response, true);
 $reserved_acc = $value["responseBody"]["accountNumber"];
