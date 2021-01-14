@@ -21,7 +21,7 @@ echo'<br>';
 
     http_response_code(200); // PHP 5.4 or greater
    
-    echo   $event;
+    print_r($event);
     // $str="INSERT INTO userinfo SET user_email='$user_email', mobile='$phone',username='$username',dob='', gender='$gender',pass='$password';";
     // $result = mysqli_query($conn, $str);
     
